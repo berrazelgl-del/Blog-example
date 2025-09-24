@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>İletişim</title>
+  <style>
+    body {
+      background-color: #d7b2ff;
+      color: #222;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      text-align: center;
+      margin: 0;
+    }
+
+    header {
+      background-color: #4a0072;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      color: #4a0072;
+      margin-top: 20px;
+    }
+
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 400px;
+      margin: 20px auto;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #aaa;
+      font-family: inherit;
+    }
+
+    button {
+      margin-top: 15px;
+      background-color: #4a0072;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #6c1c9e;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      font-size: 14px;
+      color: #fff;
+      background-color: #4a0072;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Anasayfa</a>
+      <a href="index.html#hobiler">Hobilerim</a>
+      <a href="index.html#hedefler">Hedeflerim</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
+
+  <h1>İletişim</h1>
+
+  <form>
+    <label for="ad">Adınız:</label>
+    <input type="text" id="ad" name="ad" required>
+
+    <label for="email">E-posta:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mesaj">Mesajınız:</label>
+    <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+
+    <button type="submit">Gönder</button>
+  </form>
+
+  <footer>
+    <p>© 2025 Şadiye Berra Özelgül | Öğrenci No: 2321032048</p>
+  </footer>
+
+</body>
+</html>
