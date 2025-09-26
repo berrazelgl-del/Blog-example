@@ -1,2 +1,2 @@
-[Bloguma buradan ulaşabilirsinizz!:)](https://berrazelgl-del.github.io/Blog-example/)
+[Bloguma buradan ulaşabilirsinizz!:)](https://github.com/berrazelgl-del/Blog-example.git)
 # Blog-example
